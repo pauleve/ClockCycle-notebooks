@@ -1,0 +1,5 @@
+generated
+.ipynb*
+.jupyter
+.ipython
+.local
