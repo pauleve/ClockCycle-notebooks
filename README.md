@@ -14,6 +14,6 @@ They can be executed interactively:
   colomoto-docker --image pauleve/clockcycle -V v0 --bind ClockCycle-notebooks
   ```
 
-The Docker image `pauleve/clockcycle:v0` is based on the [CoLoMoTo Docker](http://colomoto.org/notebook) version `2020-08-01`, with additional tools:
+The Docker image `pauleve/clockcycle:v0` is based on the [CoLoMoTo Docker](http://colomoto.org/notebook) version `2021-02-01`, with additional tools:
 * [csbgnpy](https://github.com/Adrienrougny/csbgnpy), a Python library for manipulating the conceptual model underlying an SBGN PD map
 * [sbgn2an](https://github.com/Adrienrougny/sgbn2an), a Python library for computing initial states and stories of a Process Description map

@@ -1,5 +1,5 @@
 IMAGE=pauleve/clockcycle
-TAG=v0
+TAG=v1
 build:
 	docker build -t $(IMAGE):$(TAG) .
 push:

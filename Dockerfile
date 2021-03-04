@@ -1,4 +1,4 @@
-FROM colomoto/colomoto-docker:2020-08-01
+FROM colomoto/colomoto-docker:2021-02-01
 
 USER root
 
