@@ -25,6 +25,6 @@ RUN rm -rf /notebook/*
 COPY --chown=user:user maps /notebook/maps/
 COPY --chown=user:user *.ipynb /notebook/
 
-ENV DOCKER_IMAGE=pauleve/clockcycle:v0
+ENV DOCKER_IMAGE=pauleve/clockcycle:v1
 
 USER user
