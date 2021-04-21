@@ -11,9 +11,10 @@ They can be executed interactively:
    2. execute the following commands, where ``ClockCycle-notebooks`` is the folder in which you extracted the notebooks
   ```
   sudo pip install -U colomoto-docker # you may have to use pip3 instead of pip
-  colomoto-docker --image pauleve/clockcycle -V v0 --bind ClockCycle-notebooks
+  colomoto-docker --image pauleve/clockcycle -V v1 --bind ClockCycle-notebooks
   ```
 
-The Docker image `pauleve/clockcycle:v0` is based on the [CoLoMoTo Docker](http://colomoto.org/notebook) version `2021-02-01`, with additional tools:
+The Docker image `pauleve/clockcycle:v1` is based on the [CoLoMoTo Docker](http://colomoto.org/notebook) version `2021-02-01`, with additional tools:
 * [csbgnpy](https://github.com/Adrienrougny/csbgnpy), a Python library for manipulating the conceptual model underlying an SBGN PD map
 * [sbgn2an](https://github.com/Adrienrougny/sgbn2an), a Python library for computing initial states and stories of a Process Description map
+* [pintsim](https://github.com/Adrienrougny/pintsim), a simulator of [Pint](https://loicpauleve.name/pint) models (automata networks) in Python
