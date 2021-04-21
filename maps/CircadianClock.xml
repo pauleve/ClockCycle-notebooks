@@ -8201,7 +8201,7 @@ PMID:10725249
 </html>
 </celldesigner:notes>
 </celldesigner:gene>
-<celldesigner:gene id="gn10" name="Arntl" type="GENE">
+<celldesigner:gene id="gn10" name="Bmal1" type="GENE">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -8358,7 +8358,7 @@ PMID: 8973331
 </html>
 </celldesigner:notes>
 </celldesigner:RNA>
-<celldesigner:RNA id="rn8" name="Arntl" type="RNA">
+<celldesigner:RNA id="rn8" name="Bmal1" type="RNA">
 <celldesigner:notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -8743,7 +8743,7 @@ PMID: 10428031
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s111" id="s111" name="Arntl" compartment="c2" initialAmount="0" charge="0">
+<species metaid="s111" id="s111" name="Bmal1" compartment="c2" initialAmount="0" charge="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -10148,7 +10148,7 @@ PMID: 8973331
 </celldesigner:extension>
 </annotation>
 </species>
-<species metaid="s183" id="s183" name="Arntl" compartment="c3" initialAmount="0">
+<species metaid="s183" id="s183" name="Bmal1" compartment="c3" initialAmount="0">
 <notes>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -11792,7 +11792,7 @@ PMID: 16148943
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s193" aliases="csa23" targetLineIndex="-1,0" editPoints="0.00245508815580181,0.03754604974066078 0.9981976070225105,-0.027564279606463682">
+<celldesigner:modification type="CATALYSIS" modifiers="s193" aliases="csa23" targetLineIndex="-1,0" editPoints="0.0024550881558017545,0.03754604974065989 0.9981976070225105,-0.02756427960646457">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -12046,7 +12046,7 @@ PMID: 27688755
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="CATALYSIS" modifiers="s342" aliases="csa12" targetLineIndex="-1,6" editPoints="0.10318287180667207,-0.3047022675411391 1.0003063925566487,-9.047868617507171E-4">
+<celldesigner:modification type="CATALYSIS" modifiers="s342" aliases="csa12" targetLineIndex="-1,6" editPoints="0.10318287180667163,-0.30470226754113844 1.0003063925566482,-9.04786861750051E-4">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -12308,7 +12308,7 @@ PMID: 11165242
 <celldesigner:editPoints>0.47704461755364846,0.009413838447557055 0.4774338834823695,-0.010312144436898762</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s26" aliases="sa26" targetLineIndex="-1,5" editPoints="0.3469226347724579,-0.3752271426140661 0.8860573034351127,0.12323898232188402">
+<celldesigner:modification type="CATALYSIS" modifiers="s26" aliases="sa26" targetLineIndex="-1,5" editPoints="0.34692263477245433,-0.37522714261406076 0.8860573034351056,0.12323898232188935">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -13823,7 +13823,7 @@ PMID: 11865049
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s346" aliases="csa10" targetLineIndex="-1,2" editPoints="0.5570440860504926,-0.4557879615720519 0.9471955575135337,0.020213103735723603">
+<celldesigner:modification type="INHIBITION" modifiers="s346" aliases="csa10" targetLineIndex="-1,2" editPoints="0.5570440860504924,-0.45578796157205237 0.9471955575135337,0.020213103735723603">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -14300,7 +14300,7 @@ PMID: 11865049
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s346" aliases="csa10" targetLineIndex="-1,5" editPoints="0.5413871398469698,-0.45838813785610855 0.9458802780175168,0.007465733965910548">
+<celldesigner:modification type="INHIBITION" modifiers="s346" aliases="csa10" targetLineIndex="-1,5" editPoints="0.5413871398469698,-0.45838813785610855 0.9458802780175172,0.007465733965910548">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -15020,7 +15020,7 @@ PMID: 11865049
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s346" aliases="csa10" targetLineIndex="-1,5" editPoints="0.5003572845132741,-0.4533988551591437 0.9404539409090822,0.022077433434166238">
+<celldesigner:modification type="INHIBITION" modifiers="s346" aliases="csa10" targetLineIndex="-1,5" editPoints="0.5003572845132742,-0.4533988551591446 0.9404539409090822,0.022077433434166238">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -15260,7 +15260,7 @@ PMID: 11798163
 <celldesigner:editPoints>0.4818954851174766,0.0012430691861897714 0.48190213910564594,-0.0013364547006382566</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s184" aliases="sa88" targetLineIndex="-1,4" editPoints="0.23562654847506004,-0.296726875539723 0.8480419625961902,0.19572674355990127">
+<celldesigner:modification type="CATALYSIS" modifiers="s184" aliases="sa88" targetLineIndex="-1,4" editPoints="0.23562654847505737,-0.296726875539723 0.8480419625961902,0.19572674355990127">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -15285,7 +15285,7 @@ PMID: 11798163
 </celldesigner:linkTarget>
 <celldesigner:line width="1.0" color="ff000000"/>
 </celldesigner:modification>
-<celldesigner:modification type="INHIBITION" modifiers="s182" aliases="sa84" targetLineIndex="-1,4" editPoints="0.06372136051776955,0.21833623240065947 0.971420363097512,-0.036633591066310256">
+<celldesigner:modification type="INHIBITION" modifiers="s182" aliases="sa84" targetLineIndex="-1,4" editPoints="0.06372136051777,0.21833623240065947 0.9714203630975131,-0.036633591066311144">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="vertical"/>
@@ -16129,7 +16129,7 @@ PMID: 21232159
 <celldesigner:editPoints>0.5026264174733193,-0.021305680729494014 0.5044199967065452,0.021006992388439727</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s115" aliases="sa92" targetLineIndex="-1,4" editPoints="0.1447859261524158,0.3692518012068433 1.0115268615431035,0.02939729364696575">
+<celldesigner:modification type="CATALYSIS" modifiers="s115" aliases="sa92" targetLineIndex="-1,4" editPoints="0.14478592615241936,0.3692518012068504 1.011526861543107,0.02939729364697996">
 <celldesigner:connectScheme connectPolicy="square">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="horizontal"/>
@@ -18161,7 +18161,7 @@ PMID: 9616122
 <celldesigner:editPoints>0.2960795787010184,0.028964306612055513 0.3055588063194854,-0.06793446459918107</celldesigner:editPoints>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s453" aliases="sa364" targetLineIndex="-1,7" editPoints="-0.017257588372038057,-0.17143711634303505 0.9780351658085298,-0.2531534553885739">
+<celldesigner:modification type="CATALYSIS" modifiers="s453" aliases="sa364" targetLineIndex="-1,7" editPoints="-0.017257588372038057,-0.17143711634303505 0.9780351658085271,-0.2531534553885735">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
@@ -18878,7 +18878,7 @@ PMID: 19299583
 </celldesigner:connectScheme>
 <celldesigner:line width="1.0" color="ff000000"/>
 <celldesigner:listOfModification>
-<celldesigner:modification type="CATALYSIS" modifiers="s455" aliases="sa109" targetLineIndex="-1,7" editPoints="0.6133679428418803,0.4921199054388383">
+<celldesigner:modification type="CATALYSIS" modifiers="s455" aliases="sa109" targetLineIndex="-1,7" editPoints="0.6133679428418812,0.492119905438837">
 <celldesigner:connectScheme connectPolicy="direct">
 <celldesigner:listOfLineDirection>
 <celldesigner:lineDirection index="0" value="unknown"/>
