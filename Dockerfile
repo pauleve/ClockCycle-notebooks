@@ -15,15 +15,13 @@ RUN mkdir /opt/csbgnpy && cd /opt/csbgnpy && \
 RUN cd /opt/csbgnpy/third_party &&\
     sed -i 's,^java -cp ,java -cp ${CLASSPATH}:,' */*.sh
 
-#RUN pip install --no-cache https://github.com/pauleve/sbgn2an/archive/patch-1.zip
 RUN pip install --no-cache https://github.com/Adrienrougny/sbgn2an/archive/8ee6332b1bccd43d34d0818da63c6d6a353dc456.zip
 RUN pip install --no-cache https://github.com/adrienrougny/pintsim/archive/v0.1.zip
 RUN pip install --no-cache tabulate
 
 RUN rm -rf /notebook/*
 
-COPY --chown=user:user maps /notebook/maps/
-COPY --chown=user:user *.ipynb /notebook/
+COPY --chown=user:user *.xml *.ipynb /notebook/
 
 ENV DOCKER_IMAGE=pauleve/clockcycle:v1
 
