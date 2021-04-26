@@ -16,7 +16,7 @@ RUN cd /opt/csbgnpy/third_party &&\
     sed -i 's,^java -cp ,java -cp ${CLASSPATH}:,' */*.sh
 
 RUN pip install --no-cache https://github.com/Adrienrougny/sbgn2an/archive/8ee6332b1bccd43d34d0818da63c6d6a353dc456.zip
-RUN pip install --no-cache https://github.com/adrienrougny/pintsim/archive/v0.1.zip
+RUN pip install --no-cache https://github.com/adrienrougny/pintsim/archive/v0.2.zip
 RUN pip install --no-cache tabulate
 
 RUN rm -rf /notebook/*
